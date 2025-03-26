@@ -1,6 +1,6 @@
 {
   "name": "binance-api-nw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modify by NW (tg:topbot12 微信:wkc19891)Node.js & JavaScript SDK for Binance REST APIs & WebSockets, with TypeScript & end-to-end tests.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

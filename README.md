@@ -1,87 +1,14 @@
 # Node.js & JavaScript SDK for Binance REST APIs & WebSockets
 
-[![Build & Test](https://github.com/tiagosiebler/binance/actions/workflows/test.yml/badge.svg)](https://github.com/tiagosiebler/binance/actions/workflows/test.yml)
-[![npm version](https://img.shields.io/npm/v/binance)][1]
-[![npm size](https://img.shields.io/bundlephobia/min/binance/latest)][1]
-[![npm downloads](https://img.shields.io/npm/dt/binance)][1]
-[![last commit](https://img.shields.io/github/last-commit/tiagosiebler/binance)][1]
-[![CodeFactor](https://www.codefactor.io/repository/github/tiagosiebler/binance/badge)](https://www.codefactor.io/repository/github/tiagosiebler/binance)
-[![Telegram](https://img.shields.io/badge/chat-on%20telegram-blue.svg)](https://t.me/nodetraders)
-
-<p align="center">
-  <a href="https://www.npmjs.com/package/binance">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tiagosiebler/binance/blob/master/docs/images/logoDarkMode2.svg?raw=true#gh-dark-mode-only">
-      <img alt="SDK Logo" src="https://github.com/tiagosiebler/binance/blob/master/docs/images/logoBrightMode2.svg?raw=true#gh-light-mode-only">
-    </picture>
-  </a>
-</p>
-
-[1]: https://www.npmjs.com/package/binance
-
-Updated & performant JavaScript & Node.js SDK for the Binance REST APIs and WebSockets:
-
-- Extensive integration with Binance REST APIs and WebSockets.
-- TypeScript support (with type declarations for most API requests & responses).
-- Supports Binance REST APIs for Binance Spot, Margin, Isolated Margin, USDM & CoinM Futures.
-  - Strongly typed on most requests and responses.
-  - Automated end-to-end tests on most API calls, ensuring no breaking changes are released.
-- Extremely robust & performant JavaScript/Node.js Binance SDK with significant trading volume in production (livenet).
-- Actively maintained with a modern, promise-driven interface.
-- Support for seamless HMAC and RSA authentication for private Binance REST API and WebSocket calls.
-  - Passing a private key as a secret will automatically revert to RSA authentication.
-- Supports Websockets for Binance Spot, Margin, Isolated Margin, USDM & CoinM Futures.
-  - Event driven messaging.
-  - Smart websocket persistence
-    - Automatically handle silent websocket disconnections through timed heartbeats, including the scheduled 24hr disconnect.
-    - Automatically handle listenKey persistence and expiration/refresh.
-    - Emit `reconnected` event when dropped connection is restored.
-  - Strongly typed on most websocket events, with typeguards available for TypeScript users.
-  - Optional:
-    - Automatic beautification of Websocket events (from one-letter keys to descriptive words, and strings with floats to numbers).
-    - Automatic beautification of REST responses (parsing numbers in strings to numbers).
-- Heavy automated end-to-end testing with real API calls.
-  - End-to-end testing before any release.
-  - Real API calls in e2e tests.
-- Proxy support via axios integration.
-- Active community support & collaboration in telegram: [Node.js Algo Traders](https://t.me/nodetraders).
-
+## 策略定制联系作者
+![alt text](image.png)
 ## Installation
 
-`npm install binance --save`
+`npm install binance-api-nw`
 
 ## Examples
 
 Refer to the [examples](./examples) folder for implementation demos.
-
-## Issues & Discussion
-
-- Issues? Check the [issues tab](https://github.com/tiagosiebler/binance/issues).
-- Discuss & collaborate with other node devs? Join our [Node.js Algo Traders](https://t.me/nodetraders) engineering community on telegram.
-- Questions about Binance APIs & WebSockets? Ask in the official [Binance API](https://t.me/binance_api_english) group on telegram.
-- Follow our announcement channel for real-time updates on [X/Twitter](https://x.com/QuantSDKs)
-
-<!-- template_related_projects -->
-
-## Related projects
-
-Check out my related JavaScript/TypeScript/Node.js projects:
-
-- Try my REST API & WebSocket SDKs:
-  - [Bybit-api Node.js SDK](https://www.npmjs.com/package/bybit-api)
-  - [Okx-api Node.js SDK](https://www.npmjs.com/package/okx-api)
-  - [Binance Node.js SDK](https://www.npmjs.com/package/binance)
-  - [Gateio-api Node.js SDK](https://www.npmjs.com/package/gateio-api)
-  - [Bitget-api Node.js SDK](https://www.npmjs.com/package/bitget-api)
-  - [Kucoin-api Node.js SDK](https://www.npmjs.com/package/kucoin-api)
-  - [Coinbase-api Node.js SDK](https://www.npmjs.com/package/coinbase-api)
-  - [Bitmart-api Node.js SDK](https://www.npmjs.com/package/bitmart-api)
-- Try my misc utilities:
-  - [OrderBooks Node.js](https://www.npmjs.com/package/orderbooks)
-  - [Crypto Exchange Account State Cache](https://www.npmjs.com/package/accountstate)
-- Check out my examples:
-  - [awesome-crypto-examples Node.js](https://github.com/tiagosiebler/awesome-crypto-examples)
-  <!-- template_related_projects_end -->
 
 ## Documentation
 
