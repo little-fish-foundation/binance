@@ -130,7 +130,7 @@ Vanilla Options connectors are not yet available, though contributions are welco
 Start by importing the spot client. API credentials are optional, though an error is thrown when attempting any private API calls without credentials.
 
 ```javascript
-const { MainClient } = require('binance');
+const { MainClient } = require('binance-api-nw');
 
 const API_KEY = 'xxx';
 const API_SECRET = 'yyy';
@@ -166,7 +166,7 @@ See [spot-client.ts](./src/main-client.ts) for further information.
 Start by importing the usd-m client. API credentials are optional, though an error is thrown when attempting any private API calls without credentials.
 
 ```javascript
-const { USDMClient } = require('binance');
+const { USDMClient } = require('binance-api-nw');
 
 const API_KEY = 'xxx';
 const API_SECRET = 'yyy';
@@ -202,7 +202,7 @@ See [usdm-client.ts](./src/usdm-client.ts) for further information.
 Start by importing the coin-m client. API credentials are optional, though an error is thrown when attempting any private API calls without credentials.
 
 ```javascript
-const { CoinMClient } = require('binance');
+const { CoinMClient } = require('binance-api-nw');
 
 const API_KEY = 'xxx';
 const API_SECRET = 'yyy';
@@ -229,7 +229,7 @@ See [coinm-client.ts](./src/coinm-client.ts) for further information.
 All websockets are accessible via the shared `WebsocketClient`. As before, API credentials are optional unless the user data stream is required.
 
 ```javascript
-const { WebsocketClient } = require('binance');
+const { WebsocketClient } = require('binance-api-nw');
 
 const API_KEY = 'xxx';
 const API_SECRET = 'yyy';
@@ -324,7 +324,7 @@ See [websocket-client.ts](./src/websocket-client.ts) for further information. Al
 Pass a custom logger which supports the log methods `silly`, `debug`, `notice`, `info`, `warning` and `error`, or override methods from the default logger as desired.
 
 ```javascript
-const { WebsocketClient, DefaultLogger } = require('binance');
+const { WebsocketClient, DefaultLogger } = require('binance-api-nw');
 
 // Enable all logging on the silly level
 DefaultLogger.silly = (...params) => {

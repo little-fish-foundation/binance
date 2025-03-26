@@ -1,4 +1,18 @@
+<!--
+ * @Author: Nw1996
+ * @Date: 2025-03-26 10:55:27
+ * @LastEditors: Nw1996
+ * @LastEditTime: 2025-03-26 11:19:24
+ * @Description: 
+ * @FilePath: /binance/CHANGELOG.md
+-->
 # Binance API
+
+npm login --registry=https://registry.npmjs.org/
+
+npm publish --registry=https://registry.npmjs.org/
+
+getOrderIdPrefix
 
 ## 2.0.14
 - Update values thrown by exception parser.

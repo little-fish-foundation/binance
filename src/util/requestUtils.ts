@@ -68,14 +68,16 @@ export function getOrderIdPrefix(network: BinanceBaseUrlKey): string {
     case 'spot2':
     case 'spot3':
     case 'spot4':
-      return 'U5D79M5B';
+      return 'ZY3E26JR';
 
     case 'usdm':
+      return 'WcsXtG5x';
     case 'usdmtest':
     case 'coinm':
+      return 'WcsXtG5x';
     case 'coinmtest':
     case 'papi':
-      return '15PC4ZJy';
+      return 'WcsXtG5x';
 
     case 'voptions':
     case 'voptionstest':
@@ -83,7 +85,7 @@ export function getOrderIdPrefix(network: BinanceBaseUrlKey): string {
 
     default:
       // throwUnhandledSwitch(network, `"${network}" unhandled`);
-      return 'U5D79M5B';
+      return 'ZY3E26JR';
   }
 }
 

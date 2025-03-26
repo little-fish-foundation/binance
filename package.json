@@ -1,7 +1,7 @@
 {
-  "name": "binance",
-  "version": "2.15.14",
-  "description": "Node.js & JavaScript SDK for Binance REST APIs & WebSockets, with TypeScript & end-to-end tests.",
+  "name": "binance-api-nw",
+  "version": "1.0.0",
+  "description": "Modify by NW (tg:topbot12 微信:wkc19891)Node.js & JavaScript SDK for Binance REST APIs & WebSockets, with TypeScript & end-to-end tests.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -20,19 +20,8 @@
     "prepublishOnly": "npm run build:clean",
     "betapublish": "npm publish --tag beta"
   },
-  "author": "Tiago Siebler (https://github.com/tiagosiebler)",
-  "contributors": [
-    "Zoey Garvey",
-    "Clifford Roche <clifford.roche@gmail.com> (http://www.cliffordroche.ca)",
-    "Aslam Hadi H <aslamhadi@gmail.com> (https://www.commitcode.com)",
-    "Andrey Vorobyov <vorandrew@gmail.com>",
-    "Dylan Sproule (https://github.com/dylansproule)",
-    "Gavy Aggarwal (http://gavyaggarwal.com/)",
-    "Tony Pettigrew (https://github.com/NeverEnder4)",
-    "Chris <apexearth@gmail.com> (https://github.com/apexearth)",
-    "Bruno Lobo <me@brunolobo.xyz> (https://brunolobo.xyz)",
-    "0xSmartCrypto <0xsmartcrypto@gmail.com> (https://twitter.com/0xSmartCrypto)"
-  ],
+  "author": "NW (https://github.com/little-fish-foundation/binance)",
+  
   "dependencies": {
     "axios": "^1.6.2",
     "isomorphic-ws": "^4.0.1",
@@ -79,17 +68,13 @@
     "bitcoin",
     "best"
   ],
-  "funding": {
-    "type": "individual",
-    "url": "https://github.com/sponsors/tiagosiebler"
-  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tiagosiebler/binance"
+    "url": "https://github.com/little-fish-foundation/binance"
   },
   "bugs": {
-    "url": "https://github.com/tiagosiebler/binance/issues"
+    "url": "https://github.com/little-fish-foundation/binance/issues"
   },
-  "homepage": "https://github.com/tiagosiebler/binance#readme"
+  "homepage": "https://github.com/little-fish-foundation/binance#readme"
 }
